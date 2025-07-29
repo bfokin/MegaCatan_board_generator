@@ -3,16 +3,21 @@ from PyQt6.QtGui import QColor
 # All default values come from the classic base game of catan.
 
 RESOURCE_COLORS = {
-    "water": QColor(64, 164, 223),
+    "water" : QColor(64, 164, 223),
     "desert": QColor(0, 0, 0),
-    "wood": QColor(34, 139, 34),
-    "brick": QColor(232, 87, 9),
-    "wheat": QColor(240, 230, 140),
-    "ore": QColor(150, 150, 150),
-    "sheep": QColor(255, 255, 255),
+    "wood"  : QColor(34, 139, 34),
+    "brick" : QColor(232, 87, 9),
+    "wheat" : QColor(240, 230, 140),
+    "ore"   : QColor(150, 150, 150),
+    "sheep" : QColor(255, 255, 255),
 }
 
-LAND_RESOURCES = ["sheep", "wood", "wheat", "brick", "ore", "desert"]
+LAND_RESOURCES = ["sheep",
+                  "wood",
+                  "wheat",
+                  "brick",
+                  "ore",
+                  "desert"]
 
 
 LAND_RESOURCE_RATIOS = {
@@ -40,12 +45,12 @@ NUMBER_RATIOS = {
 RED_NUMBERS = [6, 8]
 
 HARBOR_SYMBOLS = {
-    "generic": "3 : 1",
-    "sheep": "S",
-    "wood": "W",
-    "wheat": "Wh",
-    "ore": "O",
-    "brick": "B"
+    "generic"   : "3 : 1",
+    "sheep"     : "S",
+    "wood"      : "W",
+    "wheat"     : "Wh",
+    "ore"       : "O",
+    "brick"     : "B"
 }
 
 HARBOR_RATIOS = {

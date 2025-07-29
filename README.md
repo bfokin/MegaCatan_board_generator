@@ -5,6 +5,10 @@ Wanna generate catan boards on the go? Why not, go for it.
 
 Run ```megaCatan_board_generator.py```
 
+# Requirements
+- pyQt6
+
+
 # Usage
  - This generator will start up as a base game generator.
     - All ratio of elements will be preserved

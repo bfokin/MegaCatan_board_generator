@@ -1,6 +1,4 @@
 import sys
-import math
-import random
 
 # ====== Graphical library imports ==============================================
 from PyQt6.QtWidgets import (QApplication, QMainWindow, QWidget, QGridLayout, 
